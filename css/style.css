@@ -30,6 +30,15 @@ button{
     padding: 2px 4px;
     font-size: 12px;
     font-weight: 700;
+    margin-right: 5px;
+}
+
+.tag{
+    background-color: #636363;
+    padding: 5px 12px;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
 }
 
 /* HEADER */
@@ -82,4 +91,23 @@ li{
 .cross{
     color: #ff0000;
     border: 1px solid #ff0000;
+}
+
+.blue{
+    background-color: #44ACE7;
+}
+.purple{
+    background-color: #9A77DF;
+}
+.aqua{
+    background-color: #65C2A9;
+}
+.orange{
+    background-color: #F3A228;
+}
+.pink{
+    background-color: #D964A4;
+}
+.lime{
+    background-color: #ADC921;
 }

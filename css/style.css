@@ -1,7 +1,8 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    
 }
 
 body {
@@ -9,17 +10,18 @@ body {
     background-color: #e7e7e7;
 }
 
-/*  */
+/* UTILITY */
 
 .container {
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 auto 3px auto;
     border-radius: 3px;
-}
-
-.bg-wh {
     background-color: #FFFFFF;
 }
+
+/* .bg-wh {
+    background-color: #FFFFFF;
+} */
 
 /* HEADER */
 nav {
@@ -28,6 +30,7 @@ nav {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
+    background-color: #FFFFFF;
 }
 
 #logo {
@@ -41,7 +44,7 @@ nav {
 /* MAIN */
 
 button{
-    padding: 5px;
+    padding: 5px 12px;
     border-radius: 5px;
     border: 1px solid rgb(223, 223, 223);
     margin: 10px 0;  
@@ -56,4 +59,8 @@ button{
 
 .wh-button{
     color: #c9c9c9;
+}
+
+ul{
+    list-style: none;
 }

@@ -5,13 +5,16 @@
 }
 
 body {
-    background-color: #F6F8FA;
+    /* background-color: #F6F8FA; */
+    background-color: #e7e7e7;
 }
 
 /*  */
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 3px;
 }
 
 .bg-wh {
@@ -24,6 +27,7 @@ nav {
     height: 60px;
     display: flex;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 #logo {
@@ -34,3 +38,22 @@ nav {
     font-weight: 900;
 }
 
+/* MAIN */
+
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    margin: 10px 0;  
+}
+
+.blue-button{
+    background-color: #49AEEE;
+    border-color: #49AEEE;
+    margin-left: 50px;
+    color: white;
+}
+
+.wh-button{
+    color: #c9c9c9;
+}
